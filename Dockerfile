@@ -9,6 +9,6 @@
 	#port on which the container would lister
 	EXPOSE 80
 	#when container starts apache should start
-	ENTRYPOINT [ "/usr/sbin/ttpd" ]
+	ENTRYPOINT [ "/usr/sbin/httpd" ]
 	#Run container in the backgrund
 	CMD [ "-D", "FOREGROUND" ]
