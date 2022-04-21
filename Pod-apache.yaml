@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: apache-app
+spec:
+  containers:
+  - name: apache-app
+    image: adetoyea/newbuild
+    ports:
+    - containerPort: 80
